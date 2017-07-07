@@ -1,7 +1,7 @@
 require 'telegram/bot'
 require './controller.rb'
 
-TOKEN = '422699034:AAGuzn8The8j1_phYu6yuvsiJub1_JX_5GU'
+TOKEN = ''
 
 Telegram::Bot::Client.run(TOKEN) do |bot|
 	bot.listen do |message|
